@@ -1,0 +1,11 @@
+{
+  "clang-format.executable": "/usr/bin/clang-format",
+  "clang-tidy.executable": "/usr/bin/clang-tidy-9",
+  "clang-tidy.checks": ["*", "-fuchsia-*", "-google-*", "-zircon-*", "-abseil-*", "-modernize-use-trailing-return-type", "-llvm-*"],
+  "clang-tidy.compilerArgs": ["-std=c++2a", "-I/home/lmark/Documents/DeeDee/cpp_neural_net/include"],
+  "files.associations": {
+    "iostream": "cpp",
+    "array": "cpp",
+    "dense": "cpp"
+  }
+}
